@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -78,18 +78,18 @@ header .profile-icon {
   border-radius: 40px;
   left: 0;
   height: 100vh;
-  width: 20%; /* Always occupy 20% of the screen */
+  width: 20%; 
   background-color: white;
   border-right: 1px solid #ddd;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-  transform: translateX(-80%); /* Default state: 80% hidden */
+  transform: translateX(-80%); 
   z-index: 1000;
   padding: 1rem;
 }
 
 .dashboard.open {
-  transform: translateX(0); /* Fully visible when open */
+  transform: translateX(0);
 }
 
 .dashboard .dashboard-header {
@@ -154,20 +154,20 @@ border-radius: 30px;
 .notification-dashboard {
   position: fixed;
   border-radius: 40px;
-  right: 0; /* Positioned on the right */
+  right: 0; 
   height: 100vh;
-  width: 20%; /* Dashboard width remains 20% */
+  width: 20%; 
   background-color: #f9f9f9;
   border-left: 1px solid #ccc;
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease-in-out;
-  transform: translateX(80%); /* Default state: only 80% hidden (20% visible) */
+  transform: translateX(80%); 
   z-index: 1200;
   padding: 1.5rem;
 }
 
 .notification-dashboard.open {
-  transform: translateX(0); /* Fully visible when open */
+  transform: translateX(0); 
 }
 
 .notification-dashboard .dashboard-header {
@@ -218,7 +218,7 @@ border-radius: 30px;
 .notification-board-btn {
   position: fixed;
   top: 100px;
-  right: 20px; /* Positioned on the right */
+  right: 20px; 
   background: #007bff;
   color: white;
   padding: 0.6rem 1.2rem;
@@ -270,8 +270,8 @@ main {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two cards per row */
-  gap: 2rem; /* Space between cards */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 2rem; 
   margin-top: 1.5rem;}
 
 .card {
@@ -360,31 +360,31 @@ textarea {
 }
 
 .sub-thread-container {
-  background-color: #c4c4c4b1; /* White background */
-  border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  padding: 1rem; /* Inner spacing */
-  margin: 1rem 1rem; /* Space between sub-threads */
+  background-color: #c4c4c4b1; 
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  padding: 1rem; 
+  margin: 1rem 1rem; 
   display: inline-block;
 }
 
 .sub-thread-title {
-  font-size: 1rem; /* Adjust font size */
-  font-weight: bold; /* Bold text */
-  margin-bottom: 0.5rem; /* Space below the title */
-  color: #333; /* Darker text color */
+  font-size: 1rem; 
+  font-weight: bold; 
+  margin-bottom: 0.5rem; 
+  color: #333;
 }
 
 .sub-thread-textarea {
-  width: 80%; /* Full width */
-  height: 80px; /* Set height */
-  border: 1px solid #ddd; /* Border for the text area */
-  border-radius: 13px; /* Rounded corners for text area */
-  padding: 0.5rem; /* Inner spacing for text */
-  font-size: 0.9rem; /* Adjust font size */
-  color: #555; /* Text color */
-  background-color: #f9f9f9; /* Light gray background for contrast */
-  resize: none; /* Disable resizing */
+  width: 80%;
+  height: 80px;
+  border: 1px solid #ddd; 
+  border-radius: 13px;
+  padding: 0.5rem; 
+  font-size: 0.9rem; 
+  color: #555; 
+  background-color: #f9f9f9; 
+  resize: none; 
 }
 #summary{
   width: 80%;
@@ -403,7 +403,7 @@ textarea {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #007bff; /* Blue background */
+  background-color: #007bff; 
   color: white;
   font-size: 24px;
   border: none;

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thought - Technical Project Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">DEEP <span class="highlight">THOUGHT</span></div>
+        <div class="nav-icons">
+            <button class="icon">🏠</button>
+            <button class="icon">🔧</button>
+            <button class="icon">🔔</button>
+            <button id="profile-icon " class="icon">👩</button>
+        </div>
+    </header>
+
+    <div id="journey-dashboard" class="dashboard closed">
+        <div class="dashboard-header">
+            <h2>Journey Board</h2>
+            <button class="close-btn" onclick="togglejourney()"> &rarr; </button>
+        </div>
+        <ul>
+            <li><strong>Explore the world of management</strong></li>
+            <li>Technical Project Management</li>
+            <li>Threadbuild</li>
+            <li>Structure your pointers</li>
+            <li>4SA Method</li>
+        </ul>
+    </div>
+
+    <div id="notification-dashboard" class="notification-dashboard">
+        <div class="dashboard-header">
+            <button class="close-btn" onclick="togglenotification()"> &larr; </button>
+          <h2>Notice Board</h2>
+        </div>
+        <ul>
+          <li><strong>Latest Updates</strong></li>
+          <li>New Project Milestone Achieved</li>
+          <li>Upcoming Deadline: 4SA Submission</li>
+          <li>Team Meeting Scheduled</li>
+          <li>System Update Notification</li>
+        </ul>
+      </div>
+      
+      
+    <main>
+        <div class="content">
+            <section class="title-section">
+                <h1>Technical Project Management</h1>
+                <p>
+                    Explore the world of management<br>
+                    As a project manager, you play an important role in leading a project through initiation, planning,
+                    execution, monitoring, controlling, and completion.
+                </p>
+            </section>
+
+            <section class="cards">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Technical Project Management</h2>
+                        <button class="info-icon">ℹ</button>
+                    </div>
+                    <p class="description">
+                        Story of Alignment Scope of Agility Specific Accountable Staggering Approach
+                    </p>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dummy"
+                            title="Technical Project Management Video"></iframe>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Threadbuild</h2>
+                        <button class="info-icon">ℹ</button>
+                    </div>
+                    <p class="description">
+                        Watch the video and threadbuild, and jot out key threads while watching the video
+                    </p>
+                    <div class="thread-section">
+                        <div class="sub-thread-container">
+                            <h4 class="sub-thread-title">Sub thread 1</h4>
+                            <textarea class="sub-thread-textarea" placeholder="Enter Text here"></textarea>
+                        </div>
+                        <div class="sub-thread-container">
+                            <h4 class="sub-thread-title">Sub interpretation 1</h4>
+                            <textarea class="sub-thread-textarea" placeholder="Enter Text here"></textarea>
+                        </div>
+
+                        <button class="sub-thread">+ Sub-thread</button>
+                        <div class="sub-thread-container" id="summary">
+                            <h4 class="sub-thread-title">Summary for Thread A</h4>
+                            <textarea class="sub-thread-textarea" placeholder="Enter Text here"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>4SA Method</h2>
+                        <button class="info-icon">ℹ</button>
+                    </div>
+                    <p class="description">
+                        To Explore more read more
+                    </p>
+
+                    <div class="section">
+                        <h3 class="section-header">Introduction</h3>
+                        <p>The 4SA Method, How to bring a idea into progress?</p>
+                        <button class="see-more">See More</button>
+                    </div>
+
+                    <div class="section">
+                        <h3 class="section-header">Thread A</h3>
+                        <p>How are you going to develop your strategy? Which method are you going to use to develop a
+                            strategy? What if the project is lengthy?</p>
+                        <button class="see-more">See More</button>
+                    </div>
+
+                    <div class="section">
+                        <h3 class="section-header">Example 1</h3>
+                        <p>You have a concept, How will you put into progress?</p>
+                    </div>
+
+                </div>
+        </div>
+        </section>
+        </div>
+
+    </main>
+    <div class="options-container">
+        <button class="option" id="question">?</button>
+        <button class="option" id="meeting"><img src="meeting_icon.svg" alt=""></button>
+        <button class="option" id="calendar"><img src="calendar_icon.svg" alt=""></button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
